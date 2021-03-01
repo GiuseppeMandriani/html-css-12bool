@@ -1,0 +1,29 @@
+/* GENERAL*/
+
+body{
+    min-height:100vh;
+    padding: 4rem 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(45deg, #62cec4, #558a3a);
+    color: rgb(31, 29, 29);
+}
+
+h1,
+h2{
+    margin-bottom: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2{
+    margin-top: 2rem;
+}
+
+/* LAYOUT */
+
+.box{
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}

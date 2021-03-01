@@ -1,0 +1,19 @@
+/* 12 bool grid FRAMEWORK */
+
+
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* UTILITIES */
+
+.container{
+    max-width: 1170px; /* dimensione bootstrap */
+    margin: 0 auto;
+}
+
