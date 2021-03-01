@@ -23,12 +23,20 @@ img{
     max-width: 100%;
 }
 
-.about{
+/* UTILITIES */
+
+/* Formattazione */
+
+.text-right{
+    text-align: right;
+}
+
+.about, .hero{
     margin-top:3rem;
     margin-bottom: 3rem;;
 }
 
-.about .card h2{
+.card h2{
     margin: .75rem 0;
 }
 
@@ -42,6 +50,9 @@ img{
     padding-bottom:15px
 }
 
+.back{
+    background-color:red
+}
 
 
 
