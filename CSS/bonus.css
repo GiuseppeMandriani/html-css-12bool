@@ -2,6 +2,8 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    background-color:#ccc;
 }
 
 h1,
@@ -12,3 +14,37 @@ h5,
 h6{
     font-weight: 400;
 }
+
+p{
+    line-height: 1.7;
+}
+
+img{
+    max-width: 100%;
+}
+
+.about{
+    margin-top:3rem;
+    margin-bottom: 3rem;;
+}
+
+.about .card h2{
+    margin: .75rem 0;
+}
+
+.hero{
+    color:#fff;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.hero .card{
+    padding-top: 15px;
+    padding-bottom:15px
+}
+
+
+
+
+
+
+
