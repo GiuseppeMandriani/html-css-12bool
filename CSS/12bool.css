@@ -35,6 +35,14 @@
     alla width */
 }
 
+[class*="col-"].padding-0{
+    padding-left: 0;
+    padding-right: 0;
+    /* vado a rimuovere il padding alle colonne divise, 
+    altrimenti il padding verrà sommato
+    alle varie colonne */
+}
+
 .col-12{
     width: 100%;
 }
