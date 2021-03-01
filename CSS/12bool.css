@@ -17,3 +17,69 @@
     margin: 0 auto;
 }
 
+.container::after{
+    content:'';
+    display:table;
+    clear: both;
+}
+
+/* COLUMNS */
+
+[class*="col-"]{
+    float: left;
+    /* In base alle preferenze utilizzo il padding per la spaziatura 
+    tra le colonne, se non utilizzato le colonne andranno ad unirsi */
+    padding-left: 15px;
+    padding-right: 15px;
+    /* Utilizzo padding altrimenti margin si somma 
+    alla width */
+}
+
+.col-12{
+    width: 100%;
+}
+
+.col-11{
+    width: calc((100% / 12) * 11);
+}
+
+.col-10{
+    width: calc((100% / 12) * 10);
+}
+
+.col-9{
+    width: calc((100% / 12) * 9);
+}
+
+.col-8{
+    width: calc((100% / 12) * 8);
+}
+
+.col-7{
+    width: calc((100% / 12) * 7);
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-5{
+    width: calc((100% / 12) * 5);
+}
+
+.col-4{
+    width: calc(100% / 3);
+}
+
+.col-3{
+    width: calc(100% / 4);
+}
+
+.col-2{
+    width: calc((100% / 12) * 2);
+}
+
+.col-1{
+    width: calc(100% / 12);
+}
+
